@@ -14,7 +14,7 @@ export class CodebaseTokenModel {
     description: "codebase token for get private repo commit info",
   })
   token: string;
-
+  //test
   constructor(type: string, token: string) {
     this.type = type;
     this.token = token;
